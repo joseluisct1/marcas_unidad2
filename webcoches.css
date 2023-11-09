@@ -1,17 +1,35 @@
-#pagina
-{
-background-color: #999;
-
+#page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
 }
-header
-{
-    background-color: #F99;
+#pagina {
+  background-color: #999;
 }
-#cuerpos
-{
-    background-color: #9F9;
+header {
+  background-color: #f99;
 }
-footer
+#anuncio_top {
+  background-color: #ff9;
+}
+#links_externos {
+  background-color: #f9f;
+  display: flex;
+  justify-content: space-between;
+}
+nav 
 {
-    background-color: #99F;
+    background-color: #9FF;
+}
+#links_social
+{
+    background-color: #BA8;
+    display: flex;
+    justify-content: flex-end;
+}
+#cuerpo {
+  background-color: #9f9;
+}
+footer {
+  background-color: #99f;
 }
